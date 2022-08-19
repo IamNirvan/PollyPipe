@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.topPanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.employeeCountValueLbl = new System.Windows.Forms.Label();
+            this.totalInstallationsTextLbl = new System.Windows.Forms.Label();
+            this.ongoingInstallationsTextLbl = new System.Windows.Forms.Label();
+            this.employeeCountTextLbl = new System.Windows.Forms.Label();
             this.greetingLbl = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -39,12 +45,6 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.employeeCountTextLbl = new System.Windows.Forms.Label();
-            this.ongoingInstallationsTextLbl = new System.Windows.Forms.Label();
-            this.totalInstallationsTextLbl = new System.Windows.Forms.Label();
-            this.employeeCountValueLbl = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.topPanel.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,11 +63,71 @@
             this.topPanel.Size = new System.Drawing.Size(684, 190);
             this.topPanel.TabIndex = 0;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Carlito", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(528, 106);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(25, 29);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "#";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Carlito", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(591, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(25, 29);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "#";
+            // 
+            // employeeCountValueLbl
+            // 
+            this.employeeCountValueLbl.AutoSize = true;
+            this.employeeCountValueLbl.Font = new System.Drawing.Font("Carlito", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.employeeCountValueLbl.Location = new System.Drawing.Point(461, 34);
+            this.employeeCountValueLbl.Name = "employeeCountValueLbl";
+            this.employeeCountValueLbl.Size = new System.Drawing.Size(25, 29);
+            this.employeeCountValueLbl.TabIndex = 4;
+            this.employeeCountValueLbl.Text = "#";
+            // 
+            // totalInstallationsTextLbl
+            // 
+            this.totalInstallationsTextLbl.AutoSize = true;
+            this.totalInstallationsTextLbl.Font = new System.Drawing.Font("Carlito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.totalInstallationsTextLbl.Location = new System.Drawing.Point(542, 68);
+            this.totalInstallationsTextLbl.Name = "totalInstallationsTextLbl";
+            this.totalInstallationsTextLbl.Size = new System.Drawing.Size(123, 19);
+            this.totalInstallationsTextLbl.TabIndex = 3;
+            this.totalInstallationsTextLbl.Text = "Total Installations";
+            // 
+            // ongoingInstallationsTextLbl
+            // 
+            this.ongoingInstallationsTextLbl.AutoSize = true;
+            this.ongoingInstallationsTextLbl.Font = new System.Drawing.Font("Carlito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ongoingInstallationsTextLbl.Location = new System.Drawing.Point(462, 138);
+            this.ongoingInstallationsTextLbl.Name = "ongoingInstallationsTextLbl";
+            this.ongoingInstallationsTextLbl.Size = new System.Drawing.Size(146, 19);
+            this.ongoingInstallationsTextLbl.TabIndex = 2;
+            this.ongoingInstallationsTextLbl.Text = "Ongoing Installations";
+            // 
+            // employeeCountTextLbl
+            // 
+            this.employeeCountTextLbl.AutoSize = true;
+            this.employeeCountTextLbl.Font = new System.Drawing.Font("Carlito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.employeeCountTextLbl.Location = new System.Drawing.Point(415, 68);
+            this.employeeCountTextLbl.Name = "employeeCountTextLbl";
+            this.employeeCountTextLbl.Size = new System.Drawing.Size(115, 19);
+            this.employeeCountTextLbl.TabIndex = 1;
+            this.employeeCountTextLbl.Text = "Employee Count";
+            // 
             // greetingLbl
             // 
             this.greetingLbl.AutoSize = true;
             this.greetingLbl.Font = new System.Drawing.Font("Carlito", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.greetingLbl.Location = new System.Drawing.Point(29, 28);
+            this.greetingLbl.Location = new System.Drawing.Point(12, 11);
             this.greetingLbl.Name = "greetingLbl";
             this.greetingLbl.Size = new System.Drawing.Size(225, 59);
             this.greetingLbl.TabIndex = 0;
@@ -80,6 +140,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 105);
             this.button1.TabIndex = 1;
+            this.button1.TabStop = false;
             this.button1.Text = "Installation Type Management";
             this.button1.UseVisualStyleBackColor = true;
             // 
@@ -90,6 +151,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 105);
             this.button2.TabIndex = 2;
+            this.button2.TabStop = false;
             this.button2.Text = "Used Equipment Management";
             this.button2.UseVisualStyleBackColor = true;
             // 
@@ -100,6 +162,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(130, 105);
             this.button3.TabIndex = 3;
+            this.button3.TabStop = false;
             this.button3.Text = "Assigned Employees Management";
             this.button3.UseVisualStyleBackColor = true;
             // 
@@ -110,6 +173,7 @@
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(130, 105);
             this.button4.TabIndex = 4;
+            this.button4.TabStop = false;
             this.button4.Text = "Equipment Type Management";
             this.button4.UseVisualStyleBackColor = true;
             // 
@@ -120,6 +184,7 @@
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(130, 105);
             this.button5.TabIndex = 5;
+            this.button5.TabStop = false;
             this.button5.Text = "Inventory Management";
             this.button5.UseVisualStyleBackColor = true;
             // 
@@ -130,6 +195,7 @@
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(130, 105);
             this.button6.TabIndex = 6;
+            this.button6.TabStop = false;
             this.button6.Text = "Job Role Management";
             this.button6.UseVisualStyleBackColor = true;
             // 
@@ -140,6 +206,7 @@
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(130, 105);
             this.button7.TabIndex = 7;
+            this.button7.TabStop = false;
             this.button7.Text = "Employee Management";
             this.button7.UseVisualStyleBackColor = true;
             // 
@@ -150,6 +217,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(130, 105);
             this.button8.TabIndex = 8;
+            this.button8.TabStop = false;
             this.button8.Text = "Installation Management";
             this.button8.UseVisualStyleBackColor = true;
             // 
@@ -160,68 +228,9 @@
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(130, 214);
             this.button9.TabIndex = 9;
+            this.button9.TabStop = false;
             this.button9.Text = "Customer Management";
             this.button9.UseVisualStyleBackColor = true;
-            // 
-            // employeeCountTextLbl
-            // 
-            this.employeeCountTextLbl.AutoSize = true;
-            this.employeeCountTextLbl.Font = new System.Drawing.Font("Carlito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employeeCountTextLbl.Location = new System.Drawing.Point(415, 68);
-            this.employeeCountTextLbl.Name = "employeeCountTextLbl";
-            this.employeeCountTextLbl.Size = new System.Drawing.Size(115, 19);
-            this.employeeCountTextLbl.TabIndex = 1;
-            this.employeeCountTextLbl.Text = "Employee Count";
-            // 
-            // ongoingInstallationsTextLbl
-            // 
-            this.ongoingInstallationsTextLbl.AutoSize = true;
-            this.ongoingInstallationsTextLbl.Font = new System.Drawing.Font("Carlito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ongoingInstallationsTextLbl.Location = new System.Drawing.Point(462, 138);
-            this.ongoingInstallationsTextLbl.Name = "ongoingInstallationsTextLbl";
-            this.ongoingInstallationsTextLbl.Size = new System.Drawing.Size(146, 19);
-            this.ongoingInstallationsTextLbl.TabIndex = 2;
-            this.ongoingInstallationsTextLbl.Text = "Ongoing Installations";
-            // 
-            // totalInstallationsTextLbl
-            // 
-            this.totalInstallationsTextLbl.AutoSize = true;
-            this.totalInstallationsTextLbl.Font = new System.Drawing.Font("Carlito", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.totalInstallationsTextLbl.Location = new System.Drawing.Point(542, 68);
-            this.totalInstallationsTextLbl.Name = "totalInstallationsTextLbl";
-            this.totalInstallationsTextLbl.Size = new System.Drawing.Size(123, 19);
-            this.totalInstallationsTextLbl.TabIndex = 3;
-            this.totalInstallationsTextLbl.Text = "Total Installations";
-            // 
-            // employeeCountValueLbl
-            // 
-            this.employeeCountValueLbl.AutoSize = true;
-            this.employeeCountValueLbl.Font = new System.Drawing.Font("Carlito", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.employeeCountValueLbl.Location = new System.Drawing.Point(461, 34);
-            this.employeeCountValueLbl.Name = "employeeCountValueLbl";
-            this.employeeCountValueLbl.Size = new System.Drawing.Size(25, 29);
-            this.employeeCountValueLbl.TabIndex = 4;
-            this.employeeCountValueLbl.Text = "#";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Carlito", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(591, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(25, 29);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "#";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Carlito", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(528, 106);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 29);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "#";
             // 
             // DashboardForm
             // 
