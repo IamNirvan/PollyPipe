@@ -39,8 +39,10 @@ namespace PollyPipe
                     sqlCommand.ExecuteNonQuery();
                 }
                 return true;
-            } catch (Exception)
+            } catch (Exception e)
             {
+                MessageBox.Show($"An unexpected error ocurred when performing the manipulation \n{e}", 
+                    "An error occurred", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
             }
         }
@@ -60,7 +62,8 @@ namespace PollyPipe
             }
             catch (Exception e)
             {
-                Console.WriteLine($"An exception occurred when selecting data:\n{e}");
+                MessageBox.Show($"An unexpected error ocurred when performing the manipulation \n{e}",
+                    "An error occurred", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
         }

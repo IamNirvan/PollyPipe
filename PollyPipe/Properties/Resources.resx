@@ -121,6 +121,9 @@
   <data name="topPanelBackground3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\topPanelBackground3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="joyce-g-qx6N4-DBiaE-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joyce-g-qx6N4-DBiaE-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="topPanelBackground2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\topPanelBackground2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,7 +133,7 @@
   <data name="topPanelBackground1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\topPanelBackground1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="joyce-g-qx6N4-DBiaE-unsplash (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\joyce-g-qx6N4-DBiaE-unsplash (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="anastasia-taioglou-CTivHyiTbFw-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\anastasia-taioglou-CTivHyiTbFw-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

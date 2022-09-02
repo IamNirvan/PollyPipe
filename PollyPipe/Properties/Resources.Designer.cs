@@ -63,6 +63,16 @@ namespace PollyPipe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap anastasia_taioglou_CTivHyiTbFw_unsplash {
+            get {
+                object obj = ResourceManager.GetObject("anastasia-taioglou-CTivHyiTbFw-unsplash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap joyce_g_qx6N4_DBiaE_unsplash__1_ {
             get {
                 object obj = ResourceManager.GetObject("joyce-g-qx6N4-DBiaE-unsplash (1)", resourceCulture);

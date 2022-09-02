@@ -1,0 +1,2 @@
+- On cell click, directly transfer the values in the record into the input objects
+- Only make an object when the insert, delete and update operations need to be performed.
